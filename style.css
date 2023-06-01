@@ -5,6 +5,18 @@ body {
     justify-content: space-between;
     padding: 50px;
 }
+
+.input-group {
+    border: 1px solid rgb(13, 110, 253);
+    border-radius: var(--bs-border-radius);;
+}
+#deleteAll {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 600px;
+}
 .bh {
     height: 40px;
 }
