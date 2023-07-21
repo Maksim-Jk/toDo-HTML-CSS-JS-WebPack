@@ -1,3 +1,4 @@
+import './styles/style.scss'
 import { addTask } from "./scripts/addTask";
 import { deleteTask } from "./scripts/deleteTask";
 import { doneAllTask } from "./scripts/doneAllTasks";
