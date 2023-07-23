@@ -52,7 +52,7 @@ export function renderTask(task) {
                 <span class="${cssClass}">${task.text} </span>
                 <div class="task-item__buttons">
                     <button type="button" data-action="done" class="btn-action">
-                        // <img src=${tick} alt="Done" width="18" height="18">
+                        <img src=${tick} alt="Done" width="18" height="18">
                     </button>
                     <button type="button" data-action="delete" class="btn-action">
                         <img src=${cross} alt="Done" width="18" height="18">

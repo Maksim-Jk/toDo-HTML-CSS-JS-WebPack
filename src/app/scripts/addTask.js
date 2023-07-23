@@ -10,6 +10,8 @@ export function addTask(event) {
     // достаем текст из поля ввода
     const taskText = taskInput.value;
 
+    if (!taskText){ return alert('Введите текст задачи')}
+
     //Описываем задачу в виде объекта
     const newTask = {
         id: Date.now(),

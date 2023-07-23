@@ -9,6 +9,7 @@
         "ajv": "^6.12.6",
         "ajv-keywords": "^3.5.2",
         "autoprefixer": "10.4.5",
+        "bootstrap": "^5.3.0",
         "browserslist": "^4.21.9",
         "buffer-from": "^1.1.2",
         "caniuse-lite": "^1.0.30001517",
@@ -46,6 +47,7 @@
         "isexe": "^2.0.0",
         "isobject": "^3.0.1",
         "jest-worker": "^27.5.1",
+        "jquery": "^3.7.0",
         "json-parse-even-better-errors": "^2.3.1",
         "json-schema-traverse": "^0.4.1",
         "kind-of": "^6.0.3",
@@ -64,6 +66,7 @@
         "path-parse": "^1.0.7",
         "picocolors": "^1.0.0",
         "pkg-dir": "^4.2.0",
+        "popper.js": "^1.16.1",
         "punycode": "^2.3.0",
         "randombytes": "^2.1.0",
         "rechoir": "^0.8.0",
@@ -105,6 +108,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "html-webpack-plugin": "^5.5.3"
+        "html-webpack-plugin": "^5.5.3",
+        "mini-css-extract-plugin": "^2.7.6"
     }
 }

@@ -2,13 +2,12 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  entry: "./src/app/app.js",
+  entry: {
+    main: "./src/app/app.js",
+    vendor: "./src/app/vendor.js",
+  },
   module: {
     rules: [
-      {
-        test: /\.scss$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
       {
         test: /\.html$/,
         use: ["html-loader"],
@@ -16,13 +15,14 @@ module.exports = {
       {
         test: /\.svg$/,
         type: "asset/resource",
-   },
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: "./index.html",
       template: "./src/app/index.html",
+      inject: "body",
     }),
   ],
 };
